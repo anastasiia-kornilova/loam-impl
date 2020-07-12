@@ -1,15 +1,17 @@
 #### LOAM modifications
 
-##### LOAM: Lidar Odometry and Mapping, 2014, CMU
+##### [LOAM: Lidar Odometry and Mapping, 2014, CMU](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwik_aTXtsfqAhVV6aYKHR6fBvkQFjAAegQIAxAB&url=https%3A%2F%2Fri.cmu.edu%2Fpub_files%2F2014%2F7%2FJi_LidarMapping_RSS2014_v8.pdf&usg=AOvVaw0hfxbqKN8XjqaEevBH-34Q)
 
-Two papers: [short](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwik_aTXtsfqAhVV6aYKHR6fBvkQFjAAegQIAxAB&url=https%3A%2F%2Fri.cmu.edu%2Fpub_files%2F2014%2F7%2FJi_LidarMapping_RSS2014_v8.pdf&usg=AOvVaw0hfxbqKN8XjqaEevBH-34Q) (2014), [detailed in Springer](https://www.researchgate.net/publication/295079642_Low-drift_and_Real-time_Lidar_Odometry_and_Mapping) (2017)
+[Detailed version of the paper in Springer (2017)](https://www.researchgate.net/publication/295079642_Low-drift_and_Real-time_Lidar_Odometry_and_Mapping) 
 
 Implementations
 
-* [VLP-16 ROS package](https://github.com/laboshinl/loam_velodyne) 
-* [ROS implementation for KITTI dataset](https://github.com/claydergc/loam_velodyne_kitti_ros) (not original)
-* [LOAM_NOTED](https://github.com/cuitaixiang/LOAM_NOTED/), repo with detailed Chinese comments on the code 
-* [A-LOAM (Advanced implementation for LOAM)](https://github.com/HKUST-Aerial-Robotics/A-LOAM) Supports VLP-16, HDL-32 and HDL-64. A-LOAM is an Advanced implementation of LOAM (J. Zhang and S. Singh.  LOAM: Lidar Odometry and Mapping in Real-time), which uses Eigen and  Ceres Solver to simplify code structure.
+|                             Repo                             | Comment                                                      |                            Stars                             |                         Last update                          |
+| :----------------------------------------------------------: | :----------------------------------------------------------- | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| [loam_velodyne](https://github.com/laboshinl/loam_velodyne)  | ROS<br />VLP-16 + IMU (optional)                             | ![](https://img.shields.io/github/stars/laboshinl/loam_velodyne?style=social) | ![](https://img.shields.io/github/last-commit/laboshinl/loam_velodyne) |
+| [loam_velodyne_kitti_ros](https://github.com/claydergc/loam_velodyne_kitti_ros) | ROS<br />KITTI (HDL-64)                                      | ![](https://img.shields.io/github/stars/claydergc/loam_velodyne_kitti_ros?style=social) | ![](https://img.shields.io/github/last-commit/claydergc/loam_velodyne_kitti_ros) |
+|   [LOAM_NOTED](https://github.com/cuitaixiang/LOAM_NOTED/)   | Repo with detailed Chinese comments on the code              | ![](https://img.shields.io/github/stars/cuitaixiang/LOAM_NOTED?style=social) | ![](https://img.shields.io/github/last-commit/cuitaixiang/LOAM_NOTED) |
+|  [A-LOAM ](https://github.com/HKUST-Aerial-Robotics/A-LOAM)  | (Advanced implementation for LOAM)<br />Supports VLP-16, HDL-32 and HDL-64. A-LOAM is an Advanced implementation of LOAM (J. Zhang and S. Singh.  LOAM: Lidar Odometry and Mapping in Real-time), which uses Eigen and  Ceres Solver to simplify code structure. | ![](https://img.shields.io/github/stars/HKUST-Aerial-Robotics/A-LOAM?style=social) | ![](https://img.shields.io/github/last-commit/HKUST-Aerial-Robotics/A-LOAM) |
 
 ##### V-LOAM: Visual-Lidar Odometry and Mapping, 2015, CMU
 
